@@ -27,9 +27,9 @@ Requirement: a XeLaTeX environment with Chinese font support, such as TeX Live o
 
 ## 隐私说明 / Privacy
 
-仓库中的示例已隐藏个人姓名、电话、邮箱、出生日期、政治面貌、照片和公司名称；上海交通大学名称保留用于展示模板风格。
+仓库中的匿名示例仅将姓名、电话、邮箱、出生日期、政治面貌和所有经历时间替换为 `xxx`；校徽、照片占位框、上海交通大学名称和公司名称均保留，用于完整展示模板版式。
 
-The example hides personal name, phone, email, birth date, political affiliation, photo, and company names. Shanghai Jiao Tong University is retained to demonstrate the template style.
+The anonymized example replaces the personal name, phone, email, birth date, political affiliation, and all experience dates with `xxx`. The logo, photo placeholder, Shanghai Jiao Tong University name, and company names are retained to demonstrate the complete layout.
 
 ## 许可 / License
 
