@@ -27,9 +27,9 @@ Requirement: a XeLaTeX environment with Chinese font support, such as TeX Live o
 
 ## 隐私说明 / Privacy
 
-仓库中的匿名示例将姓名、电话、邮箱、出生日期、政治面貌、公司名称和所有经历时间替换为 `xxx`；校徽、照片占位框和上海交通大学名称保留，用于完整展示模板版式。
+仓库中的匿名示例使用“克劳德”作为姓名，电话为 `xxxxxxxxxxx`，邮箱为 `xxxxxx@sjtu.edu.cn`，出生日期为 `20xx.xx.xx`，政治面貌为“中共党员”；公司名称使用 `xxx`，经历时间使用 `xxxx.xx-xxxx.xx` 或 `xxxx.xx-至今`。校徽、学校名称和克劳德·香农头像保留，用于完整展示模板版式。
 
-The anonymized example replaces the personal name, phone, email, birth date, political affiliation, company names, and all experience dates with `xxx`. The logo, photo placeholder, and Shanghai Jiao Tong University name are retained to demonstrate the complete layout.
+The anonymized example uses “克劳德” as the name, `xxxxxxxxxxx` as the phone, `xxxxxx@sjtu.edu.cn` as the email, `20xx.xx.xx` as the birth date, and “中共党员” as the political affiliation. Company names use `xxx`, and experience dates use `xxxx.xx-xxxx.xx` or `xxxx.xx-至今`. The logo, university name, and Claude Shannon portrait are retained to demonstrate the complete layout.
 
 ## 许可 / License
 
