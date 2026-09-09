@@ -10,11 +10,11 @@
 \hypersetup{colorlinks=true,urlcolor=sjtuBlue}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
-\setlist[itemize]{leftmargin=1.15em,itemsep=0.3pt,topsep=0.5pt,parsep=0pt}
+\setlist[itemize]{leftmargin=1.15em,itemsep=0pt,topsep=0pt,parsep=0pt}
 \newcommand{\secicon}[1]{\textcolor{sjtuBlue}{\raisebox{-0.10em}{\normalsize #1}}}
-\newcommand{\sectiontitleicon}[2]{\vspace{7pt}\noindent\secicon{#1}\hspace{0.42em}{\Large\bfseries\color{sjtuBlue}#2}\vspace{2pt}\par}
+\newcommand{\sectiontitleicon}[2]{\vspace{4pt}\noindent\secicon{#1}\hspace{0.42em}{\Large\bfseries\color{sjtuBlue}#2}\vspace{1pt}\par}
 \newcommand{\sectiontitle}[1]{\sectiontitleicon{\faList}{#1}}
-\newcommand{\entry}[3]{\vspace{1.5pt}\textbf{#1}\hfill\textbf{\color{grayText}#3}\\[-1pt]{\color{grayText}#2}\par\vspace{1pt}}
+\newcommand{\entry}[3]{\vspace{0.5pt}\textbf{#1}\hfill\textbf{\color{grayText}#3}\\[-1pt]{\color{grayText}#2}\par\vspace{0.5pt}}
 \newcommand{\skill}[2]{\textbf{#1}#2\par}
 \begin{document}
 \pagestyle{empty}
@@ -29,13 +29,13 @@
   \node[anchor=north west,inner sep=0pt] at ([xshift=1.18cm,yshift=-.92cm]current page.north west){\includegraphics[width=5.0cm]{sjtu_brand_cropped.png}};
   % Name is right-aligned immediately against the photo's upper-left edge.
   % Center the name vertically in the white band between the page border and gray bar.
-  \node[anchor=east,inner sep=0pt] at ([xshift=14.92cm,yshift=-1.64cm]current page.north west){{\fontsize{26}{28}\selectfont\bfseries\color{sjtuBlue}克劳德}};
+  \node[anchor=east,inner sep=0pt] at ([xshift=16cm,yshift=-1.64cm]current page.north west){{\fontsize{26}{28}\selectfont\bfseries\color{sjtuBlue}克劳德}};
   % Contact details fill the gray area to the left of the photo in two aligned columns.
-  \node[anchor=west,align=left,font=\fontsize{12}{18}\selectfont] at ([xshift=1.68cm,yshift=-3.55cm]current page.north west){\textbf{电话：}xxxxxxxxxxx\\[1pt]\textbf{邮箱：}xxxxxx@sjtu.edu.cn};
-  \node[anchor=west,align=left,font=\fontsize{12}{18}\selectfont] at ([xshift=10.25cm,yshift=-3.55cm]current page.north west){\textbf{出生日期：}20xx.xx.xx\\[1pt]\textbf{政治面貌：}中共党员};
-  \fill[blue!8] ([xshift=15.5cm,yshift=-.95cm]current page.north west) rectangle ([xshift=18.6cm,yshift=-4.35cm]current page.north west);
-  \draw[white,line width=1pt] ([xshift=15.5cm,yshift=-.95cm]current page.north west) rectangle ([xshift=18.6cm,yshift=-4.35cm]current page.north west);
-  \node[inner sep=0pt] at ([xshift=17.05cm,yshift=-2.65cm]current page.north west){\includegraphics[width=3.08cm,height=3.38cm,keepaspectratio]{claude_shannon.png}};
+  \node[anchor=west,align=left,font=\fontsize{12}{18}\selectfont] at ([xshift=1.7cm,yshift=-3.6cm]current page.north west){\textbf{电话：}xxxxxxxxxxx\\[1pt]\textbf{邮箱：}xxxxxx@sjtu.edu.cn};
+  \node[anchor=west,align=left,font=\fontsize{12}{18}\selectfont] at ([xshift=11.5cm,yshift=-3.6cm]current page.north west){\textbf{出生日期：}20xx.xx.xx\\[1pt]\textbf{政治面貌：}中共党员};
+  \fill[blue!8] ([xshift=16.2cm,yshift=-.8cm]current page.north west) rectangle ([xshift=18.8cm,yshift=-4.4cm]current page.north west);
+  \draw[white,line width=1pt] ([xshift=16.2cm,yshift=-.8cm]current page.north west) rectangle ([xshift=18.8cm,yshift=-4.4cm]current page.north west);
+  \node[inner sep=0pt] at ([xshift=17.5cm,yshift=-2.6cm]current page.north west){\includegraphics[width=2.5cm,height=3.5cm]{claude_shannon.png}};
 \end{tikzpicture}
 \vspace*{3.38cm}
 
@@ -50,30 +50,30 @@
 \sectiontitleicon{\faBriefcase}{AI 工作经历}
 \entry{xxx}{通用软件开发工程师（AI方向）}{xxxx.xx-至今}
 \begin{itemize}
-\item 参与部门 AI 转型，负责 AI Agent Workflow 设计与搭建，打通需求输入到代码/配置生成链路。
-\item 基于 SDD 框架编排自动化流程，结合 Python 数据清洗与领域知识库构建，提升大模型上下文理解与生成准确率。
+\item 参与企业级智能助手建设，负责 Agent 流程编排与工具接入，支持需求拆解、检索和结果生成。
+\item 使用 Python 完成数据清洗、知识库整理和效果评测，沉淀可复用的提示词与交互流程。
 \end{itemize}
 
 \sectiontitleicon{\faLayerGroup}{AI 项目经历}
-\entry{基于 CodeAgent 的 3GPP 协议 RAG MCP 工具平台}{面向通信协议研发的 RAG 知识库与 MCP 工具平台}{xxxx.xx-xxxx.xx}
+\entry{企业知识问答助手}{文档检索与智能问答应用}{xxxx.xx-xxxx.xx}
 \begin{itemize}
-\item 解析 3GPP TS 规范并向量化，封装语义检索、条款对比、版本差异分析 MCP 工具。
-\item 设计多跳检索与 Chain-of-Thought 推理链路，支持多 Agent 并发调用，提升协议问答效率。
+\item 完成 PDF、Markdown 等资料的切分、向量化与召回，搭建可追溯的 RAG 问答链路。
+\item 增加引用定位、问题改写和多轮上下文能力，改善复杂问题的回答稳定性。
 \end{itemize}
-\entry{基于 CodeAgent 的软件开发全流程 AI 生成 SDD 流水线}{覆盖 AR→SD→Code→UT→ST 的端到端自动化}{xxxx.xx-xxxx.xx}
+\entry{智能编码工作台}{从需求到代码的辅助开发工具}{xxxx.xx-xxxx.xx}
 \begin{itemize}
-\item 设计 AR→SD→Code→UT→ST 五阶段 SDD 流水线，实现 Agent 协同自动流转。
-\item 集成 AST 解析、上下文感知、静态分析与自动修复，自动生成测试用例并接入部门 CI/CD。
+\item 设计需求解析、代码生成与测试建议三个模块，支持常见开发任务的自动化流转。
+\item 接入代码检索、格式检查和单元测试工具，形成可回溯的生成记录与人工确认环节。
 \end{itemize}
-\entry{基于聊天机器人的简易任务自动处理与定时总结}{WeLink 集成聊天机器人}{xxxx.xx-xxxx.xx}
+\entry{团队协作机器人}{消息触发的任务与摘要服务}{xxxx.xx-xxxx.xx}
 \begin{itemize}
-\item 构建 WeLink LLM 聊天机器人，覆盖任务创建、进度查询、文档检索与日常运维工具调用。
-\item 实现意图识别、多轮状态管理、上下文记忆及日/周总结自动推送。
+\item 将群聊指令转换为任务、提醒和文档查询请求，提供统一的工具调用入口。
+\item 实现会话状态保存、结果摘要和定时推送，减少重复的信息整理工作。
 \end{itemize}
-\entry{BPCS 系统历史问题单智能分析平台}{多工具协同的 RAG 检索数据库}{xxxx.xx-xxxx.xx}
+\entry{运维工单分析工具}{日志归因与历史案例检索}{xxxx.xx-xxxx.xx}
 \begin{itemize}
-\item 开发日志解析、问题单模板生成与 RAG 检索工具，构建历史问题单智能分析数据库。
-\item 分析转单组件正确率 85\%，根因分析正确率 80\%。
+\item 解析运行日志并关联历史案例，生成结构化摘要和初步处置建议。
+\item 设计检索评测集与反馈记录，持续优化召回结果和回答模板。
 \end{itemize}
 
 \sectiontitleicon{\faUserTie}{其他经历}
