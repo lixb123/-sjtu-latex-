@@ -27,12 +27,18 @@ Requirement: a XeLaTeX environment with Chinese font support, such as TeX Live o
 
 ## 隐私说明 / Privacy
 
-仓库中的匿名示例使用“克劳德”作为姓名，电话为 `xxxxxxxxxxx`，邮箱为 `xxxxxx@sjtu.edu.cn`，出生日期为 `20xx.xx.xx`，政治面貌为“中共党员”；公司名称使用 `xxx`，经历时间使用 `xxxx.xx-xxxx.xx` 或 `xxxx.xx-至今`。校徽、学校名称和克劳德·香农头像保留，用于完整展示模板版式。
+仓库中的匿名示例使用“克劳德”作为姓名，电话为 `xxxxxxxxxxx`，邮箱为 `xxxxxx@sjtu.edu.cn`，出生日期为 `xxxx.xx.xx`，政治面貌为“中共党员”；公司名称使用 `xxx`，经历时间使用 `xxxx.xx-xxxx.xx` 或 `xxxx.xx-至今`。校徽、学校名称和克劳德·香农头像保留，用于完整展示模板版式。
 
-The anonymized example uses “克劳德” as the name, `xxxxxxxxxxx` as the phone, `xxxxxx@sjtu.edu.cn` as the email, `20xx.xx.xx` as the birth date, and “中共党员” as the political affiliation. Company names use `xxx`, and experience dates use `xxxx.xx-xxxx.xx` or `xxxx.xx-至今`. The logo, university name, and Claude Shannon portrait are retained to demonstrate the complete layout.
+The anonymized example uses “克劳德” as the name, `xxxxxxxxxxx` as the phone, `xxxxxx@sjtu.edu.cn` as the email, `xxxx.xx.xx` as the birth date, and “中共党员” as the political affiliation. Company names use `xxx`, and experience dates use `xxxx.xx-xxxx.xx` or `xxxx.xx-至今`. The logo, university name, and Claude Shannon portrait are retained to demonstrate the complete layout.
 
 ## 许可 / License
 
 模板代码可用于个人学习、求职和简历排版。校徽与品牌图片仅用于模板展示，请遵守上海交通大学相关视觉识别规范。
 
 The template code may be used for personal learning, job applications, and resume typesetting. The university logo and brand image are included for template demonstration; follow the relevant SJTU visual identity guidelines.
+
+## 示例信息与图片来源
+
+示例中的学号、邮箱用户名和日期数字使用等长的 `x` 占位，邮箱保留 `@` 后的完整域名。
+
+示例照片为克劳德·香农，来源：[Wikimedia Commons — Claude Shannon c1930.png](https://commons.wikimedia.org/wiki/File:Claude_Shannon_c1930.png)（页面注明来源为密歇根大学 Bentley Historical Library，公有领域）。照片仅用于展示模板。
